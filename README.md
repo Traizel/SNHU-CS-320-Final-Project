@@ -12,6 +12,14 @@ The application includes three main services:
 
 Each service uses in-memory data structures and is fully validated through **JUnit unit testing** to ensure all requirements are met.
 
+## Reflection
+
+ Throughout this course, I learned that ensuring software is both functional and secure requires a structured and consistent testing approach. I focused heavily on unit testing using JUnit to validate that each component of my application behaved as expected. Writing tests alongside my code helped me catch errors early, especially with edge cases like invalid inputs or null values. I also reinforced security by validating inputs and enforcing constraints, such as limiting field lengths and preventing unauthorized updates (like immutable IDs). Combining these practices helped ensure that my software not only worked correctly but also handled unexpected situations safely.
+ 
+ Interpreting user needs and translating them into code was another key skill I developed. I approached this by carefully analyzing requirements and breaking them down into smaller, testable features. For example, in the contact service project, I mapped each requirement (like adding, updating, or deleting contacts) into specific methods and corresponding test cases. This process helped me stay aligned with what the user actually needed rather than making assumptions. Writing tests based on requirements also acted as a form of validation, ensuring that the implementation matched expectations.
+
+ When designing software, I’ve learned to prioritize simplicity, modularity, and maintainability. I structured my code using clear classes and responsibilities, such as separating the contact object from the contact service. This made the system easier to test and extend. I also followed an iterative approach—writing small pieces of functionality, testing them, and refining as needed. Overall, this course strengthened my ability to think like both a developer and a tester, ensuring that the software I build is reliable, well-structured, and aligned with user requirements.
+
 ---
 
 ## 🎯 Objectives
